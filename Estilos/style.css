@@ -12,8 +12,19 @@ body {
     position: relative;
 }
 #iphone {
+    background: url(../imagens/frame-iphone.png) no-repeat;
+    width: 311px;
+    height: 627px;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, 10%);
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 21px;
+    height: 471px;
+    width: 269px;
 }
