@@ -18,7 +18,7 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, 10%);
+    transform: translate(-50%, -40%);
 }
 
 iframe#tela {
@@ -27,4 +27,21 @@ iframe#tela {
     left: 21px;
     height: 471px;
     width: 269px;
+}
+section#links {
+    text-align: right;
+}
+
+section#links img {
+    width: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.548);
+    box-sizing: border-box;
+}
+
+img:hover {
+    border: rgba(255, 255, 255, 0.603) 3px solid;
+    transform: translateX(-10px);
+    transition: transform 0.3s;
 }
